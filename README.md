@@ -1,45 +1,51 @@
-# Weather App
+# 🌤️ Weather App
 
-Search any city and see live weather — built with Angular, Signals, and Tailwind.
+Search any city and see the weather. Built with Angular, Signals, and Tailwind.
 
-Powered by [OpenWeatherMap](https://openweathermap.org/).
+Data from [OpenWeatherMap](https://openweathermap.org/) ☁️
 
-## What you get
+🔗 **Repo:** [github.com/Afsh6n/Weather-App](https://github.com/Afsh6n/Weather-App)
 
-- Current conditions (temp, humidity, wind, pressure, visibility)
-- Sunrise & sunset in local time
-- 5-day forecast with daily highs and lows
-- Responsive UI with loading and error states
+---
 
-## Setup
+## ✨ Features
 
-**1. Install**
+- 🌡️ Current weather (temp, humidity, wind, pressure, visibility)
+- 🌅 Sunrise & sunset (local time)
+- 📅 5-day forecast
+- 📱 Responsive UI + loading & error states
+
+---
+
+## 🚀 Quick start
+
+**1. Clone & install**
 
 ```bash
-git clone https://github.com/Afsh6n/weather-app.git
-cd weather-app
+git clone https://github.com/Afsh6n/Weather-App.git
+cd Weather-App
 npm install
 ```
 
-**2. API key**
+**2. Add your API key**
 
-- Sign up and create a free key at [openweathermap.org/api](https://openweathermap.org/api).
-- Copy the example env file:
+- Get a free key at [openweathermap.org/api](https://openweathermap.org/api) 🔑
+- Copy the example file:
 
-  ```bash
-  cp src/environments/environment.development.example.ts src/environments/environment.development.ts
-  ```
+```bash
+cp src/environments/environment.development.example.ts src/environments/environment.development.ts
+```
 
-  On Windows (PowerShell):
+Windows (PowerShell):
 
-  ```powershell
-  Copy-Item src/environments/environment.development.example.ts src/environments/environment.development.ts
-  ```
+```powershell
+Copy-Item src/environments/environment.development.example.ts src/environments/environment.development.ts
+```
 
-- Open `src/environments/environment.development.ts` and replace `YOUR_OPENWEATHERMAP_API_KEY` with your key.
-- For production builds, put the same key in `src/environments/environment.ts`.
+- Open `src/environments/environment.development.ts` and paste your key instead of `YOUR_OPENWEATHERMAP_API_KEY`
+- For production, put the same key in `src/environments/environment.ts`
 
-> New keys can take up to 2 hours to activate.
+> ⏳ New keys can take up to 2 hours to work.
 
 **3. Run**
 
@@ -47,20 +53,26 @@ npm install
 npm start
 ```
 
-Open [http://localhost:4200](http://localhost:4200) and try a city like `Tehran` or `London`.
+Open [http://localhost:4200](http://localhost:4200) and try `Tehran` or `London` 🌍
 
-## Commands
+---
+
+## 📦 Commands
 
 | Command | What it does |
-| ------- | ------------ |
-| `npm start` | Start dev server |
+| --- | --- |
+| `npm start` | Dev server |
 | `npm run build` | Production build |
 | `npm test` | Run tests |
 
-## Stack
+---
+
+## 🛠️ Stack
 
 Angular 21 · Signals · RxJS · Tailwind CSS 4 · OpenWeatherMap API
 
-## License
+---
+
+## 📄 License
 
 MIT
